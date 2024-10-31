@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif; 
+}
+
+body {
+    background: linear-gradient(to right, #CAD1FB, #E8CDE0,#FFD3CA,#FEF1C5);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #D5E8FF;
+    border-radius: 15px;
+    padding: 60px 55px 60px 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    margin-top: 15%;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #5a4abf;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+input:focus {
+    border-color: #6a5acd;
+}
+td,tr {
+    width: 100%;
+}
+table {
+    width: 100%;
+}
+button {
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(45deg, #f7e89d, #ff6b6b);;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+table tr .submit {
+    text-align: center;
+}
+button:hover {
+    background-color: #5a4abf;
+}
+
+button a {
+    color: black;
+}
+.message {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+

@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif; 
+}
+
+main  {
+    background-image: url(Imgs/sign_up.png);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.main_form h1 {
+    color: rgb(94,94,213);
+    text-align: center;
+    font-size: 45px;
+}
+
+main .form_logon {
+    display: flex;
+    width: auto ;
+    padding-top: 150px;
+    justify-content: space-between;
+    margin-left:12% ;
+    margin-right: 7%;
+}
+
+main .form_logon .form_img {
+    width: 350px;
+    margin-top: 100px;
+}
+
+main .form_logon .form_img img {
+    width: 100%;
+}
+
+main .form_logon .form_img  p {
+    font-size: 30px;
+    font-weight: bolder;
+    color:#107fb6;
+    text-align: center;
+    margin-top: 10px;
+}
+
+main .form_logon .main_form {
+    width: 500px;
+}
+
+
+main .form_logon table {
+    width: 100%;
+    border-collapse: collapse ;
+}
+
+
+main .form_logon table tr td {
+    font-size: 20px;
+    font-weight:bold ;
+    padding-top: 10px;
+}
+main .form_logon table tr td input {
+    height: 35px;
+    border: 4px solid #a3a3f0;
+    border-radius:50px;
+    padding:0 15px;
+    width: 100%;
+    background-color: rgb(197, 214, 255);
+}
+
+main .form_logon table tr td .email {
+    width: 100%;
+
+}
+main .form_logon table tr .click input{
+    width: 20px;
+    height: 20px;
+} 
+
+main .form_logon table tr .text_red {
+    color: #c85f2b;
+    font-size: 17px;
+}
+
+main .form_logon table tr .note {
+    text-align: center;
+}
+
+main .form_logon table tr .text_red  span {
+    color: #0000ff;
+}
+
+main .form_logon table tr td p {
+    text-align: center;
+}
+
+main .form_logon table tr td p input {
+    width: 30%;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color:#a3a3f0;
+    border: 2px solid rgb(94,94,213);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:10vh;
+
+} 
+
+.footer .icon_app {
+    margin-top: 25px;
+}
+
+.footer .icon_app ul {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.footer .icon_app p {
+    font-size: 17px;
+    color: #7174e0;
+    padding: 5px 7px;
+    border: 2px solid #7174e0;
+    text-align: center;
+    border-radius:50%;
+}
+
+.footer .icon_message {
+    padding: 20px;
+    background-color:rgb(94,94,213);
+    color: white;
+    font-size: 30px;
+    border: 4px solid #a3a3f0;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 1200px){
+    main .form_logon .form_img {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 567px){
+
+    .footer {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+

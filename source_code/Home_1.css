@@ -1,0 +1,575 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 15, 2024, 1:00:37 PM
+    Author     : 84396
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif; 
+}
+
+
+body {
+    background-image: url(Imgs/bg_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+   max-width: 350px;
+}
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+.search-input {
+    width: 100%;
+    padding: 10px 10px 10px 30px; /* padding-left lớn hơn để có chỗ cho biểu tượng */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+header nav ul li p img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+header nav ul {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 20px;
+    justify-content: space-between;
+    line-height: 100px;
+    flex-wrap: wrap;
+}
+
+header nav ul li p i {
+    font-size: 30px;
+}
+
+header nav ul li p button {
+    padding: 5px 17px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+header nav ul li p .sign-in {
+    background-color: #aeacf3;
+}
+
+header nav ul li p .sign-up {
+    background-color: #aeacf3;
+}
+
+
+header .header_content .header_content_right {
+    width: 600px;
+}
+
+header .header_content .header_content_right .line_top {
+    width: 400px;
+    height: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color:#fdaf9f ;
+    float: right;
+}
+
+header .header_content .header_content_right img {
+    width: 400px;
+    margin-top: -50px;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+header .header_content  {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+#title {
+    color: #5a4abf;
+    font-size: 25px;
+}
+
+header .header_content .header_content_left h1 {
+    font-size: 80px;
+    font-weight: bolder;
+} 
+
+header .header_content .header_content_left{
+    margin-left: 10%;
+}
+
+header .header_content .header_content_left button {
+    padding: 10px 17px;
+    background: linear-gradient(45deg, #f7e89d, #ff6b6b);
+    border: none;
+    border-radius: 10px;
+}
+
+header .header_content .header_content_left button {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 70px;
+}
+
+main nav {
+    width: 100%;
+    min-height: 60px;
+    line-height: 60px;
+    background-color: #aeacf3;
+    margin-top: 200px;
+}
+
+main nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main nav ul a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+main .Danh_Muc {
+  width: auto;
+  padding: 40px 30px 70px 30px;
+  background-color:#e7e4ea;
+  margin-left:3% ;
+  margin-right:3%;
+  margin-top: 100px;
+
+}
+main .Danh_Muc .Danh_Muc_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+main .Danh_Muc .Danh_Muc_item .item {
+  width:22%;
+}
+
+main .Danh_Muc .Danh_Muc_item .item img {
+  width: 100%;
+  max-height: 200px;
+}
+
+main .Danh_Muc .Danh_Muc_item .item h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+main .fastlearn_business {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 60px;
+}
+
+main .fastlearn_business .business_img {
+  width: 400px;
+}
+
+main .fastlearn_business .business_img img {
+  width: 100%;
+}
+
+main .fastlearn_business .busisess_item h3 {
+  color: #6f6bff;
+  font-size: 30px;
+}
+
+main .fastlearn_business .busisess_item .fast {
+  font-size: 45px;
+  color: #107fb6;
+}
+
+main .fastlearn_business .busisess_item .learn {
+  font-size: 45px;
+  color: #1c5050;
+}
+
+main .fastlearn_business .busisess_item h4 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+main .fastlearn_business .busisess_item {
+  margin-top: 30px;
+}
+
+main .fastlearn_business .busisess_item ul {
+  margin-top: 30px;
+}
+
+
+
+main .fastlearn_business .busisess_item ul li {
+  list-style:disc;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+main .fastlearn_business .business_button {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+main .fastlearn_business .business_button button a {
+  color: black;
+}
+
+main .fastlearn_business .business_button button {
+  font-size: 20px;
+  padding: 10px 17px;
+  background-color: #aeacf3;
+  border: none;
+  border-radius: 40px;
+  margin-right: 20px;
+  font-weight: bold;
+} 
+
+main .tour_guide {
+  margin-top: 100px;
+  margin-left:3%;
+  margin-right: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+main .tour_guide .tour_guide_img {
+  width: 45%;
+
+}
+
+main .tour_guide .tour_guide_img  img {
+  width: 100%;
+}
+
+main .tour_guide .tour_guide_content h1 {
+  font-size: 50px;
+  color: #6f6bff;
+  margin-top: 40px;
+}
+
+main .tour_guide .tour_guide_content  p {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #6f6bff;
+  font-weight: 600;
+}
+
+main .tour_guide .tour_guide_content button {
+  padding: 10px 17px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+main .tour_guide .tour_guide_content button a {
+  color: white;
+  font-size: 30px;
+}
+
+footer {
+  background-color: black;
+  padding-bottom: 60px;
+}
+
+footer .menu {
+  display: flex;
+  width:auto;
+  padding:60px;
+  margin-top: 100px;
+  color: white;
+  font-size: 20px;
+}
+
+footer div img {
+   width: 300px;
+   margin-left:60px;
+}
+
+footer .menu ul {
+  margin-right: 5%;
+}
+
+footer .menu ul li {
+  margin-bottom: 20px;
+}
+footer .menu .english {
+  margin-left: auto;
+}
+
+footer .menu .english button{
+  padding: 7px 20px;
+  font-size: 25px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+
+main .story {
+  padding: 70px;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid rgb(221, 221, 221);
+}
+
+main .story .story_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .story .story_content {
+  font-size: 25px;
+  margin-left: 30px;
+}
+
+main .story .story_avata p img {
+  border-radius: 50%;
+  width: 200px;
+}
+  
+main .story .story_avata h3 {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+main .story .story_avata p {
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+main .story .story_avata .boox {
+  margin-top: 30px;
+}
+
+main .story .show_read {
+  margin-left: 30px;
+}
+
+main .story .show_read  h3 {
+  color: #6f6bff;
+  font-size: 25px;
+} 
+
+
+main .story .show_read  div {
+  width:260px;
+  height: 7px;
+  background-color: #6f6bff;
+  margin-top: 20px;
+} 
+
+main .product {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 100px;  
+  overflow-x: auto;
+  
+}
+
+
+main .product .product_item {
+  width: 320px;
+  padding: 10px;
+  display:inline-block;
+  flex-shrink: 0;  
+}
+
+main .product .product_item img {
+  width: 250px;
+  border-radius: 15%;
+  height: 250px;
+}
+
+main .product .product_item h3 {
+  margin-top: 5px;
+}
+
+main .product .product_item h2 {
+  margin-top: 20px;
+}
+
+header .checked p i {
+  font-size: 30px;
+  margin-right: 50px;
+  margin-top: 3px;
+}
+header .checked {
+  position: fixed;
+  top: 0;
+  margin-left: 3%;
+  margin-top: 10px;
+  display: none;
+  z-index: 2;
+}
+
+header .line_nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color:gray;
+  opacity: 0.95;
+  height: 100vh;
+  text-align: center;
+  z-index: 1;
+  left: -100%;
+}
+header .line_nav ul {
+  margin-top: 100px;
+  line-height: 50px;
+}
+header .line_nav ul li p a {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  opacity: 1;
+}
+
+header .line_nav ul li p a:hover {
+  color:#1c5050;
+}
+
+@media screen and (max-width:1210px) {
+  header nav {
+     display: none;
+  }
+  header .header_content{
+     display: none;
+  }
+
+  header .header_content_right {
+    display: none;
+  }
+  
+  header .checked {
+    display:block;
+    display: flex;
+    z-index: 2;
+  }
+
+  main nav {
+    margin-top: 60px;
+  }
+
+  main nav ul li a {
+    padding:0 10px ;
+  }
+
+  main .product p {
+    font-size: 40px;
+  }
+  
+  main .product .product_item {
+    width: 20%;
+  }
+  
+  
+  main .product .product_item h3 {
+    font-size: 10px;
+
+  }
+  
+  #title{
+      font-size: 10px;
+  }
+
+  main .product .product_item h2 {
+    font-size: 12px;
+  }
+
+  main .fastlearn_business .business_img {
+    display: none;
+  }
+
+  main .fastlearn_business .business_button button {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+
+  main .story .story_avata {
+    display: none;
+  }
+
+  main .story .story_content {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  main .story {
+    padding: 20px;
+  }
+  
+
+  main .story .show_read {
+    margin-left: 0px;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  main .tour_guide .tour_guide_img  {
+    display: none;
+  }
+
+  main .Danh_Muc {
+    font-size: 10px;
+  }
+
+  @media screen and (max-width:600px) {
+    footer .menu {
+      display: block;
+    }
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

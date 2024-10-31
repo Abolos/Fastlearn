@@ -1,0 +1,407 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 8, 2024, 1:16:01 PM
+    Author     : 84396
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif; 
+}
+
+body {
+    background-image: url(Imgs/bg_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    margin-right: 15px;
+}
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+.search-input {
+    width: 100%;
+    padding: 10px 10px 10px 30px; /* padding-left lớn hơn để có chỗ cho biểu tượng */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+header nav ul li p img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+header nav ul {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 20px;
+    justify-content: space-between;
+    line-height: 100px;
+    flex-wrap: wrap;
+}
+header nav ul li a {
+    font-size: 15px;
+}
+
+header nav ul li p i {
+    font-size: 30px;
+}
+
+
+/* Hien thi dang mobiphone */
+
+header .checked p i {
+    font-size: 30px;
+    margin-right: 50px;
+    margin-top: 3px;
+  }
+  header .checked {
+    position: fixed;
+    top: 0;
+    margin-left: 3%;
+    margin-top: 10px;
+    z-index: 2;
+    display: none;
+  }
+  
+  header .line_nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:gray;
+    opacity: 0.95;
+    height: 100vh;
+    text-align: center;
+    z-index: 1;
+    left: -100%;
+  }
+  header .line_nav ul {
+    margin-top: 100px;
+    line-height: 50px;
+  }
+  header .line_nav ul li p a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    opacity: 1;
+  }
+  
+  header .line_nav ul li p a:hover {
+    color:#1c5050;
+  }
+
+/* Begin paber main */
+
+main .advertise {
+    width: auto;
+    padding: 70px 40px;
+    background-color: #5caad0;
+    border-radius: 25px;
+    position: relative;
+}
+
+main .advertise h3 {
+    color: white;
+    font-size: 25px;
+}
+
+main .advertise h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #281355;
+}
+
+main .advertise h4 p {
+    margin-top: 10px;
+}
+
+main .advertise .star {
+    margin-top: 20px;
+}
+
+main .advertise .star {
+    color: #ff9900;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+main .advertise .star span {
+    font-size: 30px;
+    color: #ffc700;
+    padding-left: 10px;
+}
+
+main .advertise .Channel {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+}
+
+main .advertise .Channel span {
+    color: #6100ff;
+}
+
+main .advertise .update {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    margin-top: 20px;
+}
+
+main .advertise .update p {
+    margin-right: 70px;
+}
+
+main .advertise .update p .fa-lightbulb {
+    color: #ffc700;
+    font-size: 40px;
+}
+
+main .advertise .update p .fa-globe{
+    font-size: 40px;
+    color:#281355; 
+}
+
+main .Img_Produc_tprice {
+    position: absolute;
+    right: 0;
+    width: 450px;
+    top: 0;
+    margin-top: 350px;
+    margin-right: 3%;
+    border-radius: 20px;
+    background-color: white;
+    padding-bottom: 150px;
+}
+
+main .Img_Produc_tprice img {
+    width: 100%;
+    border-top-left-radius:20px ;
+    border-top-right-radius: 20px;
+}
+
+main .Img_Produc_tprice h2 {
+    color: #281355;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .Img_Produc_tprice .leave_cart {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+main .Img_Produc_tprice .leave_cart button {
+    padding:7px 30px;
+    border-radius: 50px;
+    background-color: #6E6AFF;
+    border: none;
+}
+
+main .Img_Produc_tprice .leave_cart button a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+main .Img_Produc_tprice .leave_cart p {
+    font-size: 20px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: #281355 solid 2px;
+    color: #281355;
+    font-weight: bold;
+}
+
+main .Img_Produc_tprice .buy_now {
+    width: 100%; 
+    margin-top: 30px;   
+}
+
+main .Img_Produc_tprice .buy_now div {
+    font-size: 30px;
+    background-color: #CECDF6;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 5px 0;
+    border-radius: 30px;
+}
+
+main .Img_Produc_tprice .buy_now div p {
+    text-align: center;
+}
+
+main .Img_Produc_tprice .buy_now div p a {
+    font-weight: bold;
+    color: #281355;
+}
+
+main .Img_Produc_tprice .Guarantee {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    color: #281355;
+}
+
+main .Img_Produc_tprice ul {
+   margin-top: 30px;
+   margin-left: 10%;
+   font-size: 20px;
+   line-height: 50px;
+   color: #281355;
+}
+
+main .Img_Produc_tprice ul table .fa-solid {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+main .nss_chanel {
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 20px;
+    padding: 3% 6%;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid #281355;
+    color: #281355;
+    position: relative;
+}
+
+main .nss_chanel h1 {
+    font-size: 80px;
+    position: absolute;
+    right: 5%;
+    margin-top:-10%;
+
+}
+
+main .nss_chanel  p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+main .main_content {
+    margin-left: 5%;
+    margin-top: 90px;
+}
+
+/*footer session  */
+  footer {
+    margin-top: 100px;
+    background-color: black;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+  }
+  
+  footer .menu {
+    display: flex;
+    width:auto;
+    padding:60px;
+    margin-top: 300px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  footer div img {
+     width: 300px;
+     margin-left:60px;
+  }
+  
+  footer .menu ul {
+    margin-right: 5%;
+  }
+  
+  footer .menu ul li {
+    margin-bottom: 20px;
+  }
+  footer .menu .english {
+    margin-left: auto;
+  }
+  
+  footer .menu .english button{
+    padding: 7px 20px;
+    font-size: 25px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    
+  }
+  @media screen and (max-width:1319px) {
+    header nav {
+       display: none;
+    }
+    header .header_content{
+       display: none;
+    }
+  
+    header .header_content_right {
+      display: none;
+    }
+    
+    header .checked {
+      display:block;
+      display: flex;
+      z-index: 2;
+    }
+
+    main .advertise {
+        position: inherit;
+    }
+    
+    main .Img_Produc_tprice {
+        position: inherit;
+        right: inherit;
+        width: inherit;
+        width: 70%;
+        top: inherit;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    main .main_content {
+        text-align: center;
+        margin: 0;
+        margin-top: 90px;
+    }
+    
+    main .nss_chanel {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    @media screen and (max-width:600px) {
+        footer .menu {
+          display: block;
+        }
+      }
+
+
+    
+    
+  }

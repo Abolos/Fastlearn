@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 17, 2024, 2:37:13 AM
+    Author     : 84396
+*/
+
+/* Đặt kiểu cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Định dạng container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Đặt kiểu cho tiêu đề */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Định dạng bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Đặt kiểu cho tiêu đề bảng */
+th {
+    background-color: #6E6AFF;
+    color: white;
+}
+
+/* Đặt kiểu cho hàng bảng */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Định dạng ảnh */
+.order-image {
+    width: 100px; /* Chiều rộng cố định cho ảnh */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+    border-radius: 4px;
+}
+
+/* Định dạng thông báo không có đơn hàng */
+p {
+    text-align: center;
+    color: #666;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
